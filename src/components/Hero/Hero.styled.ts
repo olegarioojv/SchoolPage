@@ -1,20 +1,27 @@
 import styled from "styled-components";
 
+/* ================= HERO ================= */
+
 export const HeroContainer = styled.section`
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0 80px;
+  gap: 60px;
+  padding: 40px clamp(16px, 5vw, 80px);
 
   @media (max-width: 900px) {
     flex-direction: column;
-    padding: 40px 20px;
     text-align: center;
+    gap: 32px;
   }
 `;
 
 export const HeroContent = styled.div`
   max-width: 520px;
+
+  @media (max-width: 900px) {
+    max-width: 100%;
+  }
 `;
 
 export const HeroIntroduction = styled.p`
@@ -26,14 +33,10 @@ export const HeroIntroduction = styled.p`
 
 export const HeroTitle = styled.h1`
   color: #252b42;
-  font-size: 48px;
+  font-size: clamp(32px, 5vw, 48px);
   font-weight: 800;
   line-height: 1.1;
   margin-bottom: 20px;
-
-  @media (max-width: 900px) {
-    font-size: 36px;
-  }
 `;
 
 export const HeroDescription = styled.p`
@@ -46,6 +49,7 @@ export const HeroDescription = styled.p`
 export const HeroButtons = styled.div`
   display: flex;
   gap: 12px;
+  flex-wrap: wrap;
 
   @media (max-width: 900px) {
     justify-content: center;
@@ -84,22 +88,94 @@ export const FindOutButton = styled.button`
 `;
 
 export const HeroImgContainer = styled.div`
-  width: 460px;
-  height: 480px;
+  width: clamp(260px, 40vw, 460px);
   display: flex;
   justify-content: center;
-  align-items: flex-end;
 
   img {
-    width: 520px;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
   }
+`;
+
+/* ================= CARDS ================= */
+
+export const CardContainer = styled.section`
+  display: flex;
+  justify-content: center;
+  padding: 20px clamp(16px, 5vw, 80px);
+`;
+
+export const CardContent = styled.div`
+  display: flex;
+  gap: 24px;
+  width: 100%;
+  max-width: 1000px;
 
   @media (max-width: 900px) {
-    width: 320px;
-    height: 360px;
-
-    img {
-      width: 300px;
-    }
+    flex-direction: column;
   }
+`;
+
+export const Card = styled.div`
+  background: white;
+  border-radius: 10px;
+  padding: clamp(22px, 3vw, 40px);
+  flex: 1;
+  min-width: 260px;
+
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  transition: 0.2s;
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 14px 30px rgba(0, 0, 0, 0.12);
+  }
+`;
+
+export const IconWrapper = styled.div`
+  width: clamp(46px, 6vw, 56px);
+  height: clamp(46px, 6vw, 56px);
+  border-radius: 50%;
+  background: #e74040;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+
+  svg {
+    width: clamp(20px, 3vw, 26px);
+    height: clamp(20px, 3vw, 26px);
+  }
+`;
+
+export const CardTitle = styled.h3`
+  font-size: 16px;
+  color: #252b42;
+  margin: 0;
+  font-weight: 700;
+  position: relative;
+  padding-bottom: 10px;
+
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 40px;
+    height: 3px;
+    background: #e74040;
+    border-radius: 2px;
+  }
+`;
+
+export const CardDescription = styled.p`
+  font-size: 14px;
+  color: #737373;
+  line-height: 1.6;
+  margin: 0;
 `;
