@@ -40,7 +40,7 @@ function Hero() {
         </HeroContent>
 
         <HeroImgContainer>
-          <img src="../../../public/img/student.png" alt="student" />
+          <img src="/img/student.png" alt="student" />
         </HeroImgContainer>
       </HeroContainer>
       <CardContainer>
