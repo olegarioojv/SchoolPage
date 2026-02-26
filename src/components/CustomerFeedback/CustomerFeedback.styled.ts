@@ -59,8 +59,24 @@ export const CustomerFeedbackCard = styled.div`
   width: 100%;
   max-width: 340px;
   margin: 0 auto;
-
   text-align: center;
+  position: relative;
+
+  @media (max-width: 768px) {
+    padding-bottom: 24px;
+
+    &:not(:last-child)::after {
+      content: "";
+      position: absolute;
+      left: 50%;
+      bottom: 0;
+      transform: translateX(-50%);
+
+      width: 60%;
+      height: 1px;
+      background-color: #e5e5e5;
+    }
+  }
 `;
 
 /* ESTRELAS */
@@ -78,7 +94,7 @@ export const CustomerFeedbackComment = styled.p`
   font-size: 14px;
   color: #737373;
   line-height: 1.6;
-  margin-bottom: 22px;
+  margin-bottom: 40px;
 `;
 
 /* PERFIL */
