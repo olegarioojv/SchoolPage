@@ -45,7 +45,7 @@ function Training() {
       <TrainingCardsWrapper>
         <TrainingCardContainer>
           <TrainingCardImagem>
-            <img src="../../../public/img/product_01.png" alt="Produto" />
+            <img src="/img/product_01.png" alt="Produto" />
             <TrainingCardSale>Sale</TrainingCardSale>
 
             <TrainingCardIcon>
@@ -95,7 +95,7 @@ function Training() {
 
         <TrainingCardContainer>
           <TrainingCardImagem>
-            <img src="../../../public/img/product_02.png" alt="Produto" />
+            <img src="/img/product_02.png" alt="Produto" />
 
             <TrainingCardSale>Sale</TrainingCardSale>
 
@@ -146,7 +146,7 @@ function Training() {
 
         <TrainingCardContainer>
           <TrainingCardImagem>
-            <img src="../../../public/img/product_03.png" alt="Produto" />
+            <img src="/img/product_03.png" alt="Produto" />
 
             <TrainingCardSale>Sale</TrainingCardSale>
 

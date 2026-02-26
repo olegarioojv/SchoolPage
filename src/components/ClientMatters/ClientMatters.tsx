@@ -31,7 +31,7 @@ function ClientMatters() {
         </ClientMattersText>
 
         <ClientMattersImg>
-          <img src="../../../public/img/client.png" alt="Client" />
+          <img src="/img/client.png" alt="Client" />
         </ClientMattersImg>
       </ClientMattersContent>
     </ClientMattersContainer>

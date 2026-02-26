@@ -47,7 +47,7 @@ function CustomerFeedback() {
 
           <CustomerFeedbackPerfil>
             <CustomerFeedbackPerfilImg
-              src="../../../public/img/profile.png"
+              src="/img/profile.png"
               alt="Perfil"
             />
             <div>
@@ -75,7 +75,7 @@ function CustomerFeedback() {
 
           <CustomerFeedbackPerfil>
             <CustomerFeedbackPerfilImg
-              src="../../../public/img/profile2.png"
+              src="/img/profile2.png"
               alt="Perfil"
             />
             <div>
@@ -103,7 +103,7 @@ function CustomerFeedback() {
 
           <CustomerFeedbackPerfil>
             <CustomerFeedbackPerfilImg
-              src="../../../public/img/profile3.png"
+              src="/img/profile3.png"
               alt="Perfil"
             />
             <div>
