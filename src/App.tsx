@@ -6,6 +6,7 @@ import CustomerFeedback from "./components/CustomerFeedback/CustomerFeedback";
 import Hero from "./components/Hero/Hero";
 import Navbar from "./components/Navbar/Navbar";
 import Status from "./components/Status/Status";
+import Team from "./components/Team/Team";
 import Training from "./components/Training/Training";
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <ClientMatters />
       <Training />
       <CustomerFeedback />
+      <Team />
     </>
   );
 }

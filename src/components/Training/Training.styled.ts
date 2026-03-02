@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 /* ─── Container geral ─────────────────────────────────────── */
-export const TrainingContainer = styled.section`
+export const TrainingContainer = styled.div`
   background: #fff2f3;
   padding: 80px;
   display: flex;
@@ -83,7 +83,7 @@ export const TrainingCardsWrapper = styled.div`
 `;
 
 /* ─── Card ────────────────────────────────────────────────── */
-export const TrainingCardContainer = styled.section`
+export const TrainingCardContainer = styled.div`
   background: white;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
   overflow: hidden;

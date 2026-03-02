@@ -46,10 +46,7 @@ function CustomerFeedback() {
           </CustomerFeedbackComment>
 
           <CustomerFeedbackPerfil>
-            <CustomerFeedbackPerfilImg
-              src="/img/profile.png"
-              alt="Perfil"
-            />
+            <CustomerFeedbackPerfilImg src="/img/profile.png" alt="Perfil" />
             <div>
               <CustomerFeedbackPerfilName>
                 Regina Miles
@@ -74,10 +71,7 @@ function CustomerFeedback() {
           </CustomerFeedbackComment>
 
           <CustomerFeedbackPerfil>
-            <CustomerFeedbackPerfilImg
-              src="/img/profile2.png"
-              alt="Perfil"
-            />
+            <CustomerFeedbackPerfilImg src="/img/profile2.png" alt="Perfil" />
             <div>
               <CustomerFeedbackPerfilName>
                 Regina Miles
@@ -102,10 +96,7 @@ function CustomerFeedback() {
           </CustomerFeedbackComment>
 
           <CustomerFeedbackPerfil>
-            <CustomerFeedbackPerfilImg
-              src="/img/profile3.png"
-              alt="Perfil"
-            />
+            <CustomerFeedbackPerfilImg src="/img/profile3.png" alt="Perfil" />
             <div>
               <CustomerFeedbackPerfilName>
                 Regina Miles

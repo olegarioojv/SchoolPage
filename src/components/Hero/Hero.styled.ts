@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 /* ================= HERO ================= */
 
-export const HeroContainer = styled.section`
+export const HeroContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
@@ -101,7 +101,7 @@ export const HeroImgContainer = styled.div`
 
 /* ================= CARDS ================= */
 
-export const CardContainer = styled.section`
+export const CardContainer = styled.div`
   display: flex;
   justify-content: center;
   padding: 20px clamp(16px, 5vw, 80px);

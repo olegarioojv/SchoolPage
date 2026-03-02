@@ -4,7 +4,7 @@ import {
   StatusItem,
   StatusNumber,
   StatusSubTitle,
-} from "./Status.tyled";
+} from "./Status.styled";
 
 function Status() {
   return (

@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const ClientMattersContainer = styled.section`
+export const ClientMattersContainer = styled.div`
   display: flex;
   justify-content: center;
   padding: 80px clamp(16px, 6vw, 120px);

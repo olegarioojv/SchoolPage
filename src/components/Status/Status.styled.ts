@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 /* ===== CONTAINER ===== */
 
-export const StatusContainer = styled.section`
+export const StatusContainer = styled.div`
   display: flex;
   justify-content: center;
   padding: 60px clamp(16px, 6vw, 120px);
