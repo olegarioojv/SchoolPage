@@ -1,73 +1,92 @@
-# React + TypeScript + Vite
+# 📚 Training Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto pessoal desenvolvido para praticar **CSS**, **Styled-Components** e construção de layouts responsivos a partir de um template pronto do Figma.
 
-Currently, two official plugins are available:
+O foco principal foi treinar:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Estruturação de layout  
+- Responsividade  
+- Organização de componentes  
+- Boas práticas com CSS moderno  
+- Uso de Grid e Flexbox  
+- Componentização com React  
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Tecnologias Utilizadas
 
-## Expanding the ESLint configuration
+- React  
+- Styled-Components  
+- CSS Grid  
+- Flexbox  
+- JavaScript (ES6+)  
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 🎯 Objetivo do Projeto
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+O objetivo foi transformar um layout do Figma em código real, aplicando:
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+- Responsividade para Desktop, Tablet e Mobile  
+- Estruturação escalável de componentes  
+- Organização de estilos por seção  
+- Separação clara de responsabilidades  
+
+---
+
+## 📱 Responsividade
+
+O projeto foi desenvolvido com foco em múltiplos breakpoints:
+
+- Desktop (1200px+)  
+- Notebook (1024px)  
+- Tablet (900px)  
+- Mobile (768px e abaixo)  
+
+Foram utilizados:
+
+- clamp()  
+- media queries  
+- grid-template-columns  
+- flex-wrap  
+- object-fit  
+- transform  
+
+---
+
+## 🖼️ Layout Base
+
+O design foi baseado em um template do Figma, utilizado apenas para fins de estudo e prática de implementação.
+
+---
+
+## 🛠️ Como Rodar o Projeto
+
+### Instalar dependências
+
+```bash
+npm install
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### Rodar projeto (Create React App)
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+npm start
 ```
+
+### Rodar projeto (Vite)
+
+```bash
+npm run dev
+```
+
+---
+
+✔ Projeto finalizado para fins de estudo e prática de front-end  
+ 
+---
+
+## 👨‍💻 Autor
+
+**João Victor**  
+Sempre buscando evolução técnica 🚀
