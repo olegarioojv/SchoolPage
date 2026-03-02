@@ -4,7 +4,7 @@ import styled from "styled-components";
    Container Geral
 ================================== */
 
-export const TeamContainer = styled.section`
+export const TeamContainer = styled.div`
   width: 100%;
   padding: 80px 24px;
   max-width: 1200px;
